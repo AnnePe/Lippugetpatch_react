@@ -7,9 +7,9 @@ function Patchi () {
 
   const patchUrl = async () => {
         
-      fetch('https://etappi-ticketguru.herokuapp.com/api/liput/2', {
+      fetch('https://etappi-ticketguru.herokuapp.com/api/liput/1', {
         method: "PATCH",
-        body: JSON.stringify({"kaytetty":"react testi toimii 3.11.2022"}),
+        body: JSON.stringify({"kaytetty":"react testi toimii 4.11.2022"}),
         headers: {
           "Content-Type": "application/json"
         },
