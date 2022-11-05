@@ -1,14 +1,10 @@
 import React from "react";
-import Getti from "./components/Getti";
-import Patchi from "./components/Patchi";
-
-//<Patchi/>
+import Lipputarkistus from "./components/Lipputarkistus";
 
 function LippuhakuApp() {
   return (
        <div>
-        <Getti/>
-        
+        <Lipputarkistus/>
        </div>
          );
 }

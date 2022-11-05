@@ -1,8 +1,8 @@
 import React, { useState, useEffect, Alert } from 'react';
 
-function Getti () {
+function Lipputarkistus () {
 
-    const [virhe, setVirhe] = useState('Haetaan ...');
+    const [status, setStatus] = useState('Haetaan ...');
     const [id, setId] = useState('')
     const [lippu, setLippu] = useState('')
 
@@ -38,11 +38,11 @@ function Getti () {
   //    response.statusText //=> String
   //    response.headers    //=> Headers
   //    response.url        //=> String
-    setVirhe('onnistui PATCH');
+    setStatus('onnistui PATCH');
       return response.text()
     }, function(error) {
   //    error.message //=> String
-    setVirhe('erhe');
+    setStatus('erhe');
     })
   }
 
@@ -77,5 +77,5 @@ function Getti () {
     </div>
   );
 }
-export default Getti;
+export default Lipputarkistus;
  
